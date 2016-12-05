@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var kwords: UITextField!
     @IBOutlet weak var btnSave: UIButton!
     @IBOutlet weak var status: UILabel!
+    
     @IBAction func btnSave(sender: AnyObject) {
         
         //1 Add Save Logic
@@ -89,10 +90,12 @@ class ViewController: UIViewController {
     var wordsdb:NSManagedObject!
     //**End Copy**
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //5 Add logic to load db. If wordsdb has content that means a row was tapped on UiTableView
-        
+      //  loadDefaults()
         //**Begin Copy**
         if (wordsdb != nil)
         {
@@ -284,11 +287,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func startGame() -> Void {
-        let results: [String] = ["the", "of", "to", "you", "she", "my", "is", "are", "do", "does"]
-        use = randomize(results)
-        correctChoice = use[wordPrompt(use)]
-    }
     
     func startGameCD() -> Void {
         
@@ -314,9 +312,7 @@ class ViewController: UIViewController {
             }
 
     }
-    //    func restartGame() -> Void {
-    //        use = randomize(results)
-    //        correctChoice = use[wordPrompt(use)]    }
+
     
     func clearLabels() -> Void {
         uleftLbl.text = ""
@@ -325,6 +321,56 @@ class ViewController: UIViewController {
         brightLbl.text = ""
     }
     
+    func loadDefaults() -> Void {
+        var selectedcolor:String!
+        let pickerColor = ["Black","Red","Orange", "Blue"]
+        let defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        
+        
+        
+        if let colorIsNotNill = defaults.objectForKey("color") as? String {
+            var favoriteColorSelected = defaults.objectForKey("color") as! String
+            let SelectedColor:Int = (pickerColor).indexOf(favoriteColorSelected)!
+            
+            if (favoriteColorSelected=="Black")
+            {
+                uleftLbl.textColor = UIColor.blackColor()
+                urightLbl.textColor = UIColor.blackColor()
+                bleftLbl.textColor = UIColor.blackColor()
+                brightLbl.textColor = UIColor.blackColor()
+                
+            }
+            if (favoriteColorSelected=="Red")
+            {
+                // self.view.backgroundColor = UIColor.redColor()
+               uleftLbl.textColor = UIColor.redColor()
+               urightLbl.textColor = UIColor.redColor()
+               bleftLbl.textColor = UIColor.redColor()
+               brightLbl.textColor = UIColor.redColor()
+
+            }
+            if (favoriteColorSelected=="Orange")
+            {
+                uleftLbl.textColor = UIColor.orangeColor()
+                urightLbl.textColor = UIColor.orangeColor()
+                bleftLbl.textColor = UIColor.orangeColor()
+                brightLbl.textColor = UIColor.orangeColor()
+            }
+            
+            if (favoriteColorSelected=="Blue")
+            {
+                
+                uleftLbl.textColor = UIColor.blueColor()
+                urightLbl.textColor = UIColor.blueColor()
+                bleftLbl.textColor = UIColor.blueColor()
+                brightLbl.textColor = UIColor.blueColor()
+                
+            }
+            
+            
+            //                MyColors.selectRow(SelectedColor,inComponent: 0, animated: true)
+        }
+    }
 
 }
 
