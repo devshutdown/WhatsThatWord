@@ -83,6 +83,7 @@ class PrefsViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         
         
         defaults.synchronize()
+        
     }
     
     @IBAction func backBtn(sender: UIBarButtonItem) {
@@ -140,5 +141,6 @@ class PrefsViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         // Dispose of any resources that can be recreated.
     }
     
+ 
     
 }

@@ -17,6 +17,7 @@
 		0F556D1E1DF3561600F252CC /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F556D191DF3561600F252CC /* WordsTableViewController.swift */; };
 		0F556D221DF359EB00F252CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F556D211DF359EB00F252CC /* Main.storyboard */; };
 		90D0EAE81DF5D93F00A07009 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0EAE71DF5D93F00A07009 /* PrefsViewController.swift */; };
+		90D0EAEC1DF5ED6400A07009 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0EAEB1DF5ED6400A07009 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0F556D191DF3561600F252CC /* WordsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		0F556D211DF359EB00F252CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		90D0EAE71DF5D93F00A07009 /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		90D0EAEB1DF5ED6400A07009 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0F556D0F1DF3557F00F252CC /* Info.plist */,
 				0F556D071DF3557F00F252CC /* SightWords.xcdatamodeld */,
 				90D0EAE71DF5D93F00A07009 /* PrefsViewController.swift */,
+				90D0EAEB1DF5ED6400A07009 /* MainViewController.swift */,
 			);
 			name = WhatsThatWord;
 			path = SightWords;
@@ -159,6 +162,7 @@
 				0F556D1D1DF3561600F252CC /* Words+CoreDataProperties.swift in Sources */,
 				0F556D1E1DF3561600F252CC /* WordsTableViewController.swift in Sources */,
 				90D0EAE81DF5D93F00A07009 /* PrefsViewController.swift in Sources */,
+				90D0EAEC1DF5ED6400A07009 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

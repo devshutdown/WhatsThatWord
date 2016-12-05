@@ -166,10 +166,10 @@
             </objects>
             <point key="canvasLocation" x="-236" y="422"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="X8T-b6-mOx">
             <objects>
-                <viewController id="ZxI-gm-CbK" customClass="ViewController" customModule="WhatsThatWord" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZxI-gm-CbK" customClass="MainViewController" customModule="WhatsThatWord" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XT3-QO-6fg"/>
                         <viewControllerLayoutGuide type="bottom" id="oyz-ld-6eF"/>
