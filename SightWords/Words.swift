@@ -2,8 +2,8 @@
 //  Words.swift
 //  MyWordss
 //
-//  Created by cis290 on 10/10/16.
-//  Copyright © 2016 Rock Valley College. All rights reserved.
+//  Created by Aaron Goodin
+//  Copyright © 2016 Aaron Goodin. All rights reserved.
 //
 
 import Foundation
