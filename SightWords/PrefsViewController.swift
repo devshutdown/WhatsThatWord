@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MyPreferences
 //
-//  Created by Charles Konkol on 3/23/15.
-//  Copyright (c) 2015 Rock Valley College. All rights reserved.
+//  Created by Aaron Goodin
+//  Copyright (c) 2016 Aaron Goodin
 //
 import UIKit
 
