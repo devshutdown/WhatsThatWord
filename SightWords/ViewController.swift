@@ -2,7 +2,8 @@
 //  ViewController.swift
 //  MyWordss
 //
-//  Created by Charles Konkol on 2016-05-05
+//  
+//  Created by Aaron Goodin
 //  Copyright © 2016 Chuck Konkol. All rights reserved.
 //
 
