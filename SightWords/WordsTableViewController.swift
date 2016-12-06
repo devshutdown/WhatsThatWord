@@ -2,8 +2,8 @@
 //  WordsTableViewController.swift
 //  MyWordss
 //
-//  Created by Charles Konkol on 2016-05-05
-//  Copyright © 2016 Chuck Konkol. All rights reserved.
+//  Created by Aaron Goodin
+//  Copyright © 2016 Aaron Goodin. All rights reserved.
 //
 
 import UIKit
